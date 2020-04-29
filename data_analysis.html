@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Untitled</title>
+<title>data_analysis</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -14658,6 +14658,22 @@ There were more than 150 questions as a part of the survey, including:</p>
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Why-I-dropped-NA-values-instead-of-imputing-them?">Why I dropped NA values instead of imputing them?<a class="anchor-link" href="#Why-I-dropped-NA-values-instead-of-imputing-them?">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Here above I have applied dropna with axis=0 i.e. removing rows with NA values because for subset parameter in dropna function I have used the two major columns for analysis which are <strong>LanguageWorkedWith</strong> and <strong>LanguageDesireNextYear</strong>. These field donot have numeric values so imputing them with mean or median is not possible. Mode could have been considered but as percentage missing values are close to 26% in these columns, it will affect the final results of analysis.</p>
+<p>And we are only concentrated on two columns so rest of the data doesn't matter much.</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
@@ -15473,7 +15489,8 @@ Most of the programming languages that have appeared as programming languages mo
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Blog Link: <a href="https://medium.com/@jaskaranbhatia/what-are-the-most-common-programming-languages-used-in-india-19fdfa65a0cf">Click Here</a><br/>
-Stackoverflow Developer Survey Data: <a href="https://insights.stackoverflow.com/survey">https://insights.stackoverflow.com/survey</a></p>
+Stackoverflow Developer Survey Data: <a href="https://insights.stackoverflow.com/survey">https://insights.stackoverflow.com/survey</a><br/>
+GitHub Repo:<a href="https://github.com/jaskaranbhatia/Write-A-DataScience-Blog">https://github.com/jaskaranbhatia/Write-A-DataScience-Blog</a></p>
 
 </div>
 </div>
